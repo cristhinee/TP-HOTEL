@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+body{       
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: darksalmon;
+   
+    font-family: "Trirong", serif;
+   
+
+}
+   
+header{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    display: flex;
+}
+header .container{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    height: 70px;
+    align-items:center;
+    background-color: black;
+    opacity: 0.5;
+    position: relative;
+    justify-content: center;
+    margin: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul li {
+    position: relative;
+    list-style: none;
+}
+
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    color: white;
+    letter-spacing: 2px;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    align-items: center;
+   
+}
+header a:hover{
+    
+    color:darksalmon;
+    border-bottom: 3px solid;
+    
+}
+
+header .container li ul {
+    display:none;
+    position:absolute;
+
+    }
+.container li ul li {
+    margin-top:10px;
+    color:white;
+    width: 25%;
+    
+    padding: 0px;
+}
+.container li ul li a{
+    font-size: 15px;
+    margin-left:-40px;
+    background-color: black;
+    height: 40px;
+    
+
+}
+.container li:hover > ul {
+    display:block;
+    position:fixed;
+ 
+}
+
+main .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:white;
+     margin-top: 100px;
+    font-family: "Trirong", serif;
+    column-gap: 50px;
+    
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: 1px;
+
+}
+.item h1{
+    text-align: center;
+}
+
+main .item{  
+    width:50%;
+    column-gap: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:70px;
+}
+img{
+    width: 100%;
+    border-radius: 50px;
+    
+}
+
+.item :hover {
+    filter: opacity(.5);
+}
+
+hr {
+    
+    color: white;
+    line-height: 20px;
+    border-style: solid;
+    
+}
+
+footer {
+    margin:0px;
+    position: fixed;
+    align-items: center;
+    bottom: 0;
+    width:100%;
+    height: 70px;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.5;
+}
+
+footer .container{
+    
+    display: flex;
+    margin:0;   
+    
+    position: fixed;
+    width: 100%; 
+    height: 50px;
+    justify-content: center;
+    border:1px solid;
+    flex-direction: row; 
+    padding:1px;   
+}
+
+
+footer ul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer ul li {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+footer ul li a{
+    position: relative;
+    margin: 0 15px;
+    color: white;
+    letter-spacing: 2px;
+    font-size:20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    font-family: "Trirong", serif;
+    animation: subir ease 4s;
+   
+}
+footer a:hover{
+    
+    color:darksalmon;
+    
+    
+}@keyframes subir{
+    0%   {opacity: 0.0;top:-200px; bottom:100px;}
+    50%  {opacity: 1.0; top:0px; bottom:0px;}
+    
+}
