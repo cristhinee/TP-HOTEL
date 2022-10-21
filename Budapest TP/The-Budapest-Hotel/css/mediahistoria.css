@@ -1,0 +1,233 @@
+@media screen and (max-width: 600px) {
+    header .container  {
+        background-color: black;
+        opacity: 0.5;
+        width: 100vw;
+        height: auto;
+     
+    }
+
+  }
+
+
+  @media screen and (max-width: 600px) {
+    header  ul {
+        flex-direction: column ;
+        
+        width: 100vw;
+       height: 100%;      
+    }
+  }
+
+  @media screen and (min-width: 600px){
+    header .container  {
+        background-color: black;
+        opacity: 0.5;
+        width: 100vw;
+        height: auto;
+        
+  }  
+  }
+  @media screen and (min-width: 600px){
+    header ul{
+        flex-direction: column-reverse ;
+        width: 100vw;
+       height: 100%; 
+    }
+  }  
+  @media screen and (min-width: 768px){
+    header .container  {
+        background-color: black;
+        opacity: 0.5;
+        width: 100vw;
+        height: auto;
+        
+  }  
+  }
+  @media screen and (min-width: 768px){
+    header ul{
+        flex-direction: row ;
+        width: 100vw;
+       height: 100%; 
+    }
+  }
+
+@media screen and (max-width: 600px){
+  main .container1{
+    margin-top:200px;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    text-align: justify;
+    margin-left:0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 600px){
+  main .container2{
+    margin-bottom: 50px;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-left:0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  main .container3{
+    margin-bottom: 50px;
+    margin-top: 0px;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 15px;
+    text-align: justify;
+    margin-left:0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 600px){
+  main .container4{
+    margin-bottom: 50px;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-top: 50px;
+    margin-left:0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  main .container5{
+    margin-top: 0px;
+    flex-direction: column;
+    row-gap: 20px;
+    font-size: 15px;
+    margin-left:0px;
+    margin-right: 0px;
+    text-align: justify;
+  }
+}
+@media screen and (min-width: 600px){
+  main .container1{
+    margin-top:200px;
+    flex-direction: column;
+    margin-bottom:0px;
+    text-align: justify;
+    
+  }
+}
+@media screen and (min-width: 600px){
+  main .container3, .container5{
+    margin-top:20px;
+    flex-direction: column;
+    margin-bottom:0px;
+     
+    text-align: justify;
+    
+  }
+}
+
+@media screen and (min-width: 600px){
+  main .container5{
+    
+    margin-bottom:100px;
+    
+  }
+}
+@media screen and (min-width: 600px){
+  main .container2, .container4{
+    margin-top:30px;
+    padding:20px;
+    margin-bottom:0px;
+    
+  }
+}
+
+@media screen and (min-width: 768px){
+  main .container1{
+  margin-top:70px;
+    flex-direction: row;
+    margin-bottom:0px;
+  }
+}
+@media screen and (min-width: 768px){
+  main .container3, .container5{
+   margin-top:20px;
+    flex-direction: row;
+    margin-bottom:0px;
+    padding:50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container li ul li a{
+    font-size: 12px;
+    
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .container li ul li {
+    margin-top:5px;
+    color:white;
+    width: 50%;
+    
+  
+  }
+
+}
+@media screen and (max-width: 600px) {
+.container li:hover > ul {
+  display:inline;
+  position:fixed;
+
+}
+}
+
+
+@media screen and (min-width: 600px) {
+  .container li:hover > ul {
+    display:inline;
+    position:fixed;
+  
+  }
+  }
+@media screen and (min-width: 600px) {
+      .container li ul li {
+        margin-top:5px;
+        color:white;
+        width: 50%;
+        align-items: left;
+            
+      }
+ 
+    }
+@media screen and (min-width: 600px) {
+      .container li ul li a{
+        font-size: 15px;
+        
+      }
+  }
+
+@media screen and (min-width: 768px) {
+      .container li:hover > ul {
+        display:block;
+        position:fixed;
+      
+      }
+      }
+  
+@media screen and (min-width: 768px) {
+        .container li ul li {
+          
+          margin-top:10px;
+          color:white;
+          width: 25%;
+          
+          padding: 0px;  
+        }
+      }
+
+     
+

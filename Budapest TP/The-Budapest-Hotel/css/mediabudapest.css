@@ -1,0 +1,134 @@
+@media screen and (max-width: 600px) {
+    header .container  {
+        background-color: black;
+        opacity: 0.5;
+        width: 100vw;
+        height: auto;
+       
+      
+     
+    }
+
+  }
+ 
+
+
+ 
+  @media screen and (max-width: 600px) {
+    header  ul {
+        flex-direction: column ;
+        justify-content: left;
+        
+        width: 100vw;
+       height: 100%;    
+      
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .container li ul li a{
+      font-size: 12px;
+      
+    }
+
+  }
+  @media screen and (max-width: 600px) {
+    .container li ul li {
+      margin-top:5px;
+      color:white;
+      width: 50%;
+      
+    
+    }
+
+  }
+  @media screen and (max-width: 600px) {
+  .container li:hover > ul {
+    display:inline;
+    position:fixed;
+  
+  }
+  }
+
+  @media screen and (min-width: 600px){
+    header .container  {
+        background-color: black;
+        opacity: 0.5;
+        width: 100vw;
+        height: auto;
+        
+  }  
+  }
+  @media screen and (min-width: 600px){
+    header ul{
+        flex-direction: column-reverse ;
+        width: 100vw;
+       height: 100%; 
+      
+    }
+  }  
+  @media screen and (min-width: 768px){
+    header .container  {
+        background-color: black;
+        opacity: 0.5;
+        width: 100vw;
+        height: auto;
+        
+  }  
+  }
+  @media screen and (min-width: 768px){
+    header ul{
+        flex-direction: row ;
+        width: 100vw;
+       height: 100%; 
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .container li:hover > ul {
+      display:inline;
+      position:fixed;
+    
+    }
+    }
+@media screen and (min-width: 600px) {
+      .container li ul li {
+        margin-top:5px;
+        color:white;
+        width: 50%;
+        align-items: left;
+            
+      }
+ 
+    }
+@media screen and (min-width: 600px) {
+      .container li ul li a{
+        font-size: 12px;
+        
+      }
+      }
+@media screen and (min-width: 768px) {
+    .container li:hover > ul {
+      display:block;
+      position:fixed;
+    
+    }
+    }
+
+@media screen and (min-width: 768px) {
+      .container li ul li {
+        
+        margin-top:10px;
+        color:white;
+        width: 25%;
+        
+        padding: 0px;  
+      }
+    }
+
+@media screen and (min-width: 768px) {
+      .container li ul li a{
+        font-size: 15px;
+        
+      }
+  }
+
